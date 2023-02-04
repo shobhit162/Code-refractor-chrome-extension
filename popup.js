@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "My API Key here";
 const MODEL = "text-davinci-002";
 const API_URL = `https://api.openai.com/v1/engines/${MODEL}/jobs`;
 
