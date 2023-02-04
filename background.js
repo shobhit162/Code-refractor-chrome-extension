@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener(
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer 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'
+          'Authorization': 'Bearer My API key here'
         },
         body: JSON.stringify({
           prompt: request.selectedCode,
